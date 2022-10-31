@@ -1,0 +1,35 @@
+.navbar-nav .nav-item {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.navbar-nav {
+    margin-left: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.signup-btn {
+    margin-left: 15px;
+}
+
+.signup-btn:hover {
+    background-color: var(--primary-theme);
+    opacity: .5;
+    transition-duration: .8s;
+}
+
+.navbar-wrapper {
+    width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-wrapper {
+        width: 100%;
+    }
+}
